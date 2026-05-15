@@ -39,6 +39,7 @@ Este repositório contém o gabarito da atividade somativa da disciplina de Inte
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
 ```
+<img width="845" height="728" alt="image" src="https://github.com/user-attachments/assets/315cf3f0-69e3-4493-9425-5736fa64c467" />
 
 ### Fluxo de Dados
 
