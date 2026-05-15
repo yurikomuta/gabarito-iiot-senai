@@ -26,17 +26,17 @@ Este repositório contém o gabarito da atividade somativa da disciplina de Inte
 │  │  - Lógica        │         │  - Atuação       │           │
 │  │  - Comunicação   │         │  - Feedback      │           │
 │  └──────────────────┘         └──────────────────┘           │
-│           │                                                   │
+│           │                                                  │
 │           │ Protocolo de Comunicação                         │
-│           │ (Serial/Wi-Fi/LoRa)                             │
-│           ▼                                                   │
+│           │ (Serial/Wi-Fi/LoRa)                              │
+│           ▼                                                  │
 │  ┌──────────────────────────────────────────┐                │
 │  │        Camada de Aplicação/Controle      │                │
 │  │  - Tratamento de dados                   │                │
 │  │  - Ações automáticas                     │                │
 │  │  - Monitoramento em tempo real           │                │
 │  └──────────────────────────────────────────┘                │
-│                                                               │
+│                                                              │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -137,17 +137,10 @@ Implementações típicas:
 ```
 gabarito-iiot-senai/
 ├── README.md                    # Documentação principal
-├── codigo/                      # Código-fonte C++
-│   ├── main.cpp               # Programa principal
-│   ├── sensores.cpp           # Módulo de sensores
-│   ├── atuadores.cpp          # Módulo de atuadores
-│   └── comunicacao.cpp        # Módulo de comunicação
-├── diagrama/                    # Esquemáticos e diagramas
-│   ├── circuito.txt           # Descrição do circuito
-│   └── wokwi.json             # Configuração Wokwi
-└── documentacao/               # Documentação técnica adicional
-    ├── especificacoes.md      # Especificações técnicas
-    └── guia-uso.md            # Guia de uso do sistema
+├── provas/                      # atividades somativas
+│   ├── numero.ino               # Programa principal
+│   ├── diagram.json           # Módulo do wokwi
+├── gabarito-geral/                    # gabarito unificado
 ```
 
 ## Especificações Técnicas
